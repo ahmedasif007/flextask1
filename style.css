@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(202, 189, 188);
+}
+.page{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.page img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 250px;
+    height: 500px;
+}
+.letter{
+    padding: 0.75rem;
+}
+h3{
+    height: 10%;
+    letter-spacing: 0.8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35%;
+   padding: 1rem;
+}
+.letter p{
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.amount{
+    display: flex;
+    gap: 2rem;
+    height: 10%;
+    padding: 0.5rem;
+}
+h2{
+    color: rgb(58, 131, 58);
+}
+.bottm{
+    display: flex;
+    align-items: center;
+}
+button{
+    background-color: rgb(58, 131, 58);
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem;
+    height: 30px;
+    border: 0;
+    border-radius: 0.5rem;
+
+
+}
